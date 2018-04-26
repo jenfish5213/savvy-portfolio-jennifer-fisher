@@ -10,7 +10,7 @@ li {
 
 }
 #navgation {
-  background-color: blue;
+  background-color: skyblue;
 }
 #navgation > ul {
   list-style: none;
@@ -19,7 +19,7 @@ li {
   display: inline;
 }
 #navgation a{
-color: pink;
+color: white;
 }
 #navgation > ul ul {
   position: fixed;
