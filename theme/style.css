@@ -45,13 +45,16 @@ img {
   background-color: pink;
   padding: 5 15px;
 }
+#navgation a {
+  color: green;
+}
 #header {
   border-color: pink;
   color: silver;
 }
 #content {
-
 }
+
 #footer {
   width: 100vw;
 }
