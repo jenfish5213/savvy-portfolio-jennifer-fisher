@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 h1 {
-  font-family: cursive;
+  font-family: "IndieFlower";
 }
 h2 {
   color: pink;
@@ -40,11 +40,20 @@ img {
 }
 #navgation {
   width: 100vw;
+
   position: fixed;
   top: 0;
   background-color: pink;
   padding: 5 15px;
 }
+#navgation ul {
+  display: flex:
+  list-style: none;
+  padding: 8px
+  justify-content:space-between;
+}
+
+
 #navgation a {
   color: green;
 }

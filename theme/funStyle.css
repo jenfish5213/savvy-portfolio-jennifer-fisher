@@ -1,36 +1,49 @@
 body {
   background-color: green;
+  margin: 0;
 }
-li {
-  font-style: italic;
+h1 {
+  font-family: "Indie-Flower";
 }
+
  #workspace{
   display: flex;
   justify-content: center;
-
 }
 #navgation {
   background-color: skyblue;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
 }
-#navgation > ul {
+#navgation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navgation .container > ul {
   list-style: none;
+  justify-content: space-around;
+  padding: 8px;
+  display: flex;
   }
-#navgation > ul > li {
-  display: inline;
+#navgation .container> ul > li {
+  position: relative;
 }
-#navgation a{
+#navgation a {
 color: white;
 }
-#navgation > ul ul {
+#navgation .container> ul ul {
   position: fixed;
   list-style: none;
   display: none;
   top: 30px;
 }
-#navgation > ul ul:hover {
+#navgation .container> ul ul:hover {
   display: block;
 }
-#navgation a:hover + ul {
+#navgation .container a:hover + ul {
   background-color: hotpink;
   display: block;
 }
