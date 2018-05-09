@@ -1,0 +1,23 @@
+body {
+  background-color: #2d4d4d;
+}
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+  font-size: 100px
+}
+
+#workspace{
+ display: flex;
+ justify-content: center;
+}
+#navigation {
+  background-color: #af6798;
+  padding: 3%;
+}
+
+#header{
+  color: 
+}
+#content
+#footer
