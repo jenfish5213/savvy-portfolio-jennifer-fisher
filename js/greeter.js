@@ -1,7 +1,17 @@
 var subtitle = document.querySelector( "h2" );
+var userInput = document.querySelector( '#userInput' );
+var originSubtitle = subtitle.innerHTML;
 
+userInput.addEventListener(
+    "keyup",
+    function greetUser( event ){
+        subtitle.innerHTML = originSubtitle + event.target.value ;
+    }
+);
+
+/*
 var getUserName = function getUserName(){
-    var userName = prompt( "What's your name?" );
+    var userName = prompt( "What's your name? " );
 
     if( !userName ){
         getUserName();
@@ -12,7 +22,4 @@ var getUserName = function getUserName(){
 };
 
 getUserName();
-
-
-var i=1; i<-100; i++) {)
-		console.log("Fizz Buzz");}
+*/

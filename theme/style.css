@@ -1,22 +1,33 @@
 body {
-  background-color: purple;
+  background-color: #CB7FB2;
   margin: 0;
+  color: 7FC1CB;
+
 }
 h1 {
-  font-family: "IndieFlower";
+  color: #DB327B;
+  font-size: 70px;
+  font-family: 'Love Ya Like A Sister', cursive;
 }
 h2 {
-  color: pink;
-  font-family: cursive;
+  color: #621C46;
+  font-size: 50px;
+font-family: 'Love Ya Like A Sister', cursive;
 }
 ul {
-  border: solid pink;
+  border: ;
   margin: 0 32px;
   padding: 25px 25px 25px 40px;
+  list-style: none;
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: #621C46;
 }
 li {
   padding: 5px;
   margin: 5px;
+}
+p {
+  color:#DB327B;
 }
 img {
   display: block;
@@ -38,15 +49,14 @@ img {
 .secondary {
   color:
 }
-#navgation {
+#navigation {
   width: 100vw;
-
   position: fixed;
   top: 0;
-  background-color: pink;
+  background-color: ;
   padding: 5 15px;
 }
-#navgation ul {
+#navigation ul {
   display: flex:
   list-style: none;
   padding: 8px
@@ -54,14 +64,16 @@ img {
 }
 
 
-#navgation a {
-  color: green;
+#navigation a {
+  color: ;
 }
 #header {
-  border-color: pink;
-  color: silver;
+  border-color: ;
+  color: ;
 }
 #content {
+  margin: 20px;
+  padding: 20px;
 }
 
 #footer {
